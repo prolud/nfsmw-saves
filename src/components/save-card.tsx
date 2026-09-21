@@ -54,7 +54,10 @@ export function SaveCard({ entry }: { entry: RivalEntry }) {
 
       <CardContent className="flex flex-1 flex-col gap-3">
         {entry.saves.length === 0 && (
-          <p className="text-sm text-muted">Nenhum save publicado ainda.</p>
+          <p className="rounded-lg border border-dashed border-line p-4 text-center text-sm text-muted">
+            Ainda estamos trabalhando para trazer os saves deste rival. Volte em
+            breve!
+          </p>
         )}
 
         {entry.saves.map((save) => (
