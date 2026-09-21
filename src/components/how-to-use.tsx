@@ -33,7 +33,7 @@ export function HowToUse() {
               <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent text-accent-ink">
                 <step.icon className="size-5" />
               </span>
-              <CardTitle className="text-base">{step.title}</CardTitle>
+              <CardTitle className="text-base text-accent">{step.title}</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted">{step.text}</p>

@@ -46,7 +46,7 @@ export default function Home() {
   const withImage = savesCatalog.rivals.filter((r) => r.image).length;
 
   return (
-    <div className="flex min-h-full flex-col bg-base text-foreground">
+    <div className="flex min-h-full flex-col bg-background text-foreground">
       <SiteHeader />
 
       <main className="flex-1">
@@ -142,7 +142,7 @@ export default function Home() {
               </CardContent>
             </Card>
           ) : (
-            <div className="mt-6 grid gap-4 md:grid-cols-2">
+            <div className="mt-6 flex flex-col gap-4">
               {rivals.map((entry) => (
                 <SaveCard key={entry.dir} entry={entry} />
               ))}
