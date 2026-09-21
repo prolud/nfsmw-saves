@@ -17,7 +17,7 @@ type SortOrder = "asc" | "desc";
 
 export default function Home() {
   const [query, setQuery] = useState("");
-  const [order, setOrder] = useState<SortOrder>("asc");
+  const [order, setOrder] = useState<SortOrder>("desc");
 
   const rivals = useMemo(() => {
     const normalized = query.trim().toLowerCase();
