@@ -32,5 +32,5 @@ esse repositório também publica um site que agrega todos os saves: cada pasta 
 - site: https://prolud.github.io/nfsmw-saves (após ativar o Pages nas configurações do repositório, fonte "GitHub Actions")
 - como adicionar um save novo: crie uma pasta com o nome da posição (ex: `saves/11th/`) contendo os 2 arquivos de save e, opcionalmente, um `.png` com fundo transparente do rival. no próximo push o workflow faz o build e o novo card aparece sozinho no site, sem precisar mexer no código.
 - como rodar localmente: `npm install`, depois `npm run dev`. o `predev`/`prebuild` executa o `scripts/generate-saves.mjs`, que lê as pastas de saves, copia os arquivos para `public/saves/` e gera o catálogo em `src/generated/saves.json`.
-- design: fundo `#0e0d0f`, destaques e botões `#d1e8b4`, flat, cantos de 8px, componentes estilo shadcn/ui.
+- design: fundo `#21211d`, destaques e botões `#fcfbf4`, flat, cantos de 8px, componentes estilo shadcn/ui.
 
